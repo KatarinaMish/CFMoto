@@ -1,0 +1,271 @@
+#title_dopolnit{
+	display:none
+}
+ #dopolnit{
+	max-height: 200px
+}
+ #but_dopolnit{
+	display:none
+}
+ * {
+	 box-sizing: border-box;
+}
+ #yslugi{
+	 display: grid;
+	 grid-template-rows: 1fr 1fr ;
+	 grid-template-columns: 1fr 1fr 1fr 1fr;
+	 grid-gap: 2vw;
+	 justify-content: space-around;
+}
+ .blocks12 h2{
+	 text-align:center;
+	 color: #121214;
+	 padding-top:5vw;
+	 padding-bottom:27px;
+}
+ #yslugi img {
+	 width:100%;
+	 border-radius: 9px 9px 0 0;
+}
+ #yslugi>div{
+	 display:flex;
+	 flex-direction: column;
+	 border-radius: 9px;
+	 background: #F4F4F4;
+	 max-width:303px ;
+}
+ .blocks12{
+	/* background-image: url(../images/fondop.jpeg);
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 height:auto;
+	 */
+	 padding: 0 10vw 5vw 10vw;
+}
+ .blocks12 h5{
+	 color: #037E8C;
+	 font-family: Montserrat;
+	 font-size: 18px;
+	 font-style: normal;
+	 font-weight: 600;
+	 line-height: 130%;
+	 padding-top: 2px;
+	 padding-bottom: 6px;
+	 text-align: center;
+}
+ .blocks12 p{
+	 color: #121214;
+	 font-family: Montserrat;
+	 font-size: 14px;
+	 font-style: normal;
+	 font-weight: 400;
+	 line-height: 130%;
+	padding-top: 10px;
+	 text-align: center;
+}
+/* 
+/*============ Footer ============*/
+ .line {
+	 border:1px solid #121214 
+}
+ #navig1{
+	 padding: 0 5vw;
+	margin-top:5vw 
+}
+ #cop>p{
+	 color: #787878;
+	 text-align:center;
+	 padding-top:.5em 
+}
+ .mobile-nav-link:hover {
+	 color: #037E8C;
+}
+ .top-menu1 {
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+	 padding: 12px 32px;
+}
+ .menu1 a:hover {
+	 color: #037E8C;
+}
+ .menu1 {
+	 list-style: none;
+	 margin: 0;
+	 float: right 
+}
+ .log1 {
+	 width: 111px;
+	 position: relative;
+	 z-index: 1001;
+}
+ .menu1 a {
+	 font-size: 14px;
+	 font-style: normal;
+	 font-weight: 600;
+	 line-height: 104.7%;
+	 text-transform: uppercase;
+	 text-decoration: none;
+	color: #121214;
+}
+/*============================ Адаптация ========================*/
+ @media (max-width: 1200px) {
+	 .burger {
+		 display: flex;
+		 position: relative;
+		 z-index: 1001;
+	}
+	 .mobile-nav {
+		 display: block;
+	}
+	 .phone-number, .menu {
+		 display: none;
+	}
+	 .marsh{
+		 padding: 0 5vw 5vw 5vw;
+		 flex-direction: column;
+	}
+	 .marsh_img{
+		 width:100% 
+	}
+	 .marsh1{
+		 padding: 0 5vw 5vw 5vw;
+		 flex-direction: column-reverse;
+	}
+	 .marsh1_img{
+		 width:100% 
+	}
+	 #com{
+		 grid-template-rows: 1fr;
+		 grid-template-columns: 1fr 1fr ;
+	}
+	 #grid{
+		 grid-template-rows: 1fr;
+		 grid-template-columns: 1fr ;
+	}
+	 .contacts{
+		 flex-direction: column;
+		 padding-left:0;
+	}
+	 .contacts__content{
+		 margin: 0 2vw 
+	}
+	 .contacts__list {
+		 flex-direction: column;
+	}
+	 #com>div {
+		 max-width: 100%;
+	}
+	 .menu1 a{
+		 color: #121214;
+		 font-size: 20px;
+		 font-style: normal;
+		 font-weight: 600;
+		 line-height: 160%;
+		/* 22.4px */
+		 text-transform: uppercase;
+	}
+	 .navig1{
+		 display:flex;
+		 flex-direction: column;
+		 margin-left: 100px;
+	}
+	 .top-menu1{
+		 justify-content: flex-start;
+		padding: 2vw 20vw;
+		align-items: normal 
+	}
+	 #cop p{
+		 font-size: 8px;
+		width:auto;
+	}
+	 .log1{
+		 height:69 px;
+		 width: 54px;
+	}
+	 .container {
+		 border-radius: 5px;
+		 background-color: #FFF;
+		 padding: 0 3vw;
+		 margin: 0 3vw;
+	}
+	 #yslugi {
+		 display: grid;
+		 grid-template-rows: 1fr 1fr;
+		 grid-template-columns: 1fr 1fr ;
+		 grid-gap: 0;
+		 align-items: center;
+	}
+	 #yslugi>div {
+		 height: 290px;
+		 margin-bottom: 1vw;
+	}
+	 .blocks1 {
+		 background-image: url(../images/fondop.png);
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 height: auto;
+		 padding: 0 2vw 5vw 2vw;
+	}
+}
+ @media (max-width: 960px) {
+	 .title h1 {
+		 font-size: 52px;
+		 line-height: 72px;
+		 font-weight: 700;
+	}
+	 .title h5 {
+		 padding-top: 20px;
+		 font-size: 32px;
+		 font-style: normal;
+		 font-weight: 500;
+		 line-height: 130%;
+		/* 20.8px */
+	}
+	 .mobile-nav {
+		 padding: 204px 32px;
+	}
+	 .second {
+		 display: flex;
+		 flex-direction: column;
+	}
+	 .first {
+		 display: flex;
+		 flex-direction: column;
+	}
+	 .bocks{
+		width:auto
+	}
+}
+ @media (max-width: 768px) {
+	 .top-menu {
+		 margin: 0;
+		 padding: 12px 20px;
+	}
+	 .log {
+		 width: 50px 
+	}
+	 .title {
+		 padding: 0 32px;
+	}
+	 .title h1 {
+		 font-size: 36px;
+		 line-height: 44px;
+		 font-weight: 700;
+	}
+	 .title h5 {
+		 padding-top: 16px;
+		 font-size: 16px;
+		 font-style: normal;
+		 font-weight: 500;
+		 line-height: 130%;
+		/* 20.8px */
+	}
+	 .but {
+		 margin-top: 42px;
+	}
+	 .mobile-nav {
+		 padding: 104px 21px;
+	}
+}
+ */

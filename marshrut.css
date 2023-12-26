@@ -1,0 +1,156 @@
+ #blocks11{
+	 height:auto;
+	 padding: 5vw 5vw 0 0;
+}
+ .close{
+	 display:flex;
+	 justify-content: flex-end;
+	 margin-bottom:2vw 
+}
+ .information p{
+	padding: 0 5vw 3vw 5vw;
+	 color:#000
+}
+ .information h3{
+	padding:0 5vw 3vw 5vw;
+	 color:#000
+}
+/*=========== блок с маршрутом ===========*/
+ .marsh{
+	 padding:0 0 5vw 5vw;
+	 display:flex;
+	 gap: 30px;
+	 width: auto;
+	 flex-direction: row;
+}
+ .marsh_title{
+	 display:flex;
+	flex:1 1 50%;
+	 flex-direction: column;
+	 max-width:547px;
+}
+ .marsh_img {
+	 display: flex;
+	 flex: 1;
+	 max-height: 450px;
+	 width: 50%;
+	 height: auto;
+	 gap: 20px;
+	gap: 0 20px;
+	 justify-content: flex-end;
+}
+ .marsh_img img {
+	 flex: 1 1 50%;
+	 max-width: calc(50% - 20px);
+	 display: block;
+	 object-fit: cover;
+	 object-position: center;
+	border-radius:9px;
+}
+ .marsh_text h4{
+	 color: #121214;
+	 font-size: 36px;
+	 font-style: normal;
+	 font-weight: 600;
+	 line-height: 108.7%;
+	 padding-top:0;
+}
+ .marsh_text h5{
+	 color: #121214;
+	 font-size: 18px;
+	 font-style: normal;
+	 font-weight: 600;
+	 line-height: 130%;
+	/* 23.4px */
+	 text-transform: uppercase;
+	 padding-bottom:10px;
+}
+ .marsh_text p{
+	 color: #121214;
+	 font-size: 14px;
+	 font-style: normal;
+	 font-weight: 400;
+	 line-height: 160%;
+	 padding-bottom:80px;
+}
+ .marsh_text h3{
+	 color: #121214;
+	 font-size: 24px;
+	 font-style: normal;
+	 font-weight: 700;
+	 line-height: 108.7%;
+	 padding:0;
+}
+ .marsh_text ul{
+	 padding-top:20px;
+}
+ .marsh_text li{
+	 display:block;
+	 color: #121214;
+	 font-size: 16px;
+	 font-style: normal;
+	 font-weight: 400;
+	 line-height: 108.7%;
+	/* 17.392px */
+	 text-transform: uppercase;
+}
+ .marsh_text span{
+	 color: #121214;
+	 font-family: Montserrat;
+	 font-size: 16px;
+	 font-style: normal;
+	 font-weight: 600;
+	 line-height: 108.7%;
+}
+/*============*/
+ * {
+	 box-sizing: border-box;
+}
+ #yslugi{
+	 display: grid;
+	 grid-template-rows: 1fr 1fr ;
+	 grid-template-columns: 1fr 1fr 1fr 1fr;
+	 grid-gap: 2vw;
+	 justify-content: space-around;
+}
+ #yslugi img {
+	 width:100%;
+	 border-radius: 9px 9px 0 0;
+}
+ #yslugi>div{
+	 display:flex;
+	 flex-direction: column;
+	 border-radius: 9px;
+	 background: #F4F4F4;
+	 max-width:303px ;
+}
+ .blocks12{
+	/* background-image: url(../images/fondop.jpeg);
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 height:auto;
+	 */
+	 padding: 0 10vw 5vw 10vw;
+}
+ .blocks12 h5{
+	 color: #037E8C;
+	 font-family: Montserrat;
+	 font-size: 18px;
+	 font-style: normal;
+	 font-weight: 600;
+	 line-height: 130%;
+	 padding-top: 2px;
+	 padding-bottom: 6px;
+	 text-align: center;
+}
+ .blocks12 p{
+	 color: #121214;
+	 font-family: Montserrat;
+	 font-size: 14px;
+	 font-style: normal;
+	 font-weight: 400;
+	 line-height: 130%;
+	padding-top: 10px;
+	 text-align: center;
+}
+ 
